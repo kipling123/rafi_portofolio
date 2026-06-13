@@ -106,30 +106,14 @@ export const EXPERIENCES = [
 export const PROJECTS = [
   {
     id: 1,
-    title: "Eye Gaze Detection CNN",
+    title: "Big Data Laboratory",
     year: "2026",
-    emoji: "👁️",
-    desc: "Research project for Eye Gaze Communication Detection using Convolutional Neural Networks (CNN).",
-    tags: ["CNN", "Python", "Computer Vision"],
+    emoji: "🎓",
+    desc: "Building a website for the Big Data Laboratory Telkom University Big Data Laboratory.",
+    tags: ["Next JS", "PostgreSQL"],
   },
   {
     id: 2,
-    title: "AI Study Group Participant",
-    year: "2026",
-    emoji: "🧪",
-    desc: "Completed intensive AI study group organized by Telkom University AI Laboratory.",
-    tags: ["Python", "NumPy", "AI Lab"],
-  },
-  {
-    id: 3,
-    title: "AI x Softdev Bootcamp",
-    year: "2025",
-    emoji: "🚀",
-    desc: "Completed AI x Softdev 2025 bootcamp event organized by Google Developer Group on Campus.",
-    tags: ["AI", "Softdev", "GDGoC"],
-  },
-  {
-    id: 4,
     title: "KAI Frontend System",
     year: "2025",
     emoji: "🚆",
@@ -137,7 +121,31 @@ export const PROJECTS = [
     tags: ["React", "JavaScript", "Internship"],
   },
   {
+    id: 3,
+    title: "Eye Gaze Detection CNN",
+    year: "2026",
+    emoji: "👁️",
+    desc: "Research project for Eye Gaze Communication Detection using Convolutional Neural Networks (CNN).",
+    tags: ["CNN", "Python", "Computer Vision"],
+  },
+  {
+    id: 4,
+    title: "AI Study Group Participant",
+    year: "2026",
+    emoji: "🧪",
+    desc: "Completed intensive AI study group organized by Telkom University AI Laboratory.",
+    tags: ["Python", "NumPy", "AI Lab"],
+  },
+  {
     id: 5,
+    title: "AI x Softdev Bootcamp",
+    year: "2025",
+    emoji: "🚀",
+    desc: "Completed AI x Softdev 2025 bootcamp event organized by Google Developer Group on Campus.",
+    tags: ["AI", "Softdev", "GDGoC"],
+  },
+  {
+    id: 6,
     title: "Most Active Member ML",
     year: "2025",
     emoji: "🏆",
@@ -145,7 +153,7 @@ export const PROJECTS = [
     tags: ["Machine Learning", "Achievement", "GDGoC"],
   },
   {
-    id: 6,
+    id: 7,
     title: "LMS Helphin Indonesia",
     year: "2025",
     emoji: "🎓",
@@ -155,6 +163,20 @@ export const PROJECTS = [
 ];
 
 export const CERTIFICATIONS = [
+  {
+    title: "Data Science Competition Participant",
+    issuer: "GAMMAFEST 2026 – Gamma Sigma Beta, IPB University",
+    date: "2026",
+    skills: ["Data Science", "Statistical Innovation", "Data Mapping"],
+    icon: "📈"
+  },
+  {
+    title: "Data Analytics Competition Participant",
+    issuer: "FIND IT! 2026 – KMTETI, Universitas Gadjah Mada",
+    date: "2026",
+    skills: ["Data Analytics", "Innovation", "IT Research"],
+    icon: "🔍"
+  },
   {
     title: "AI Innovation Challenge Participant",
     issuer: "COMPFEST 17",
